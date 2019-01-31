@@ -43,5 +43,3 @@ class OrderGoods(models.Model):
     goods_num = models.IntegerField()
     goods_picture = models.ImageField(upload_to = "images")
     order = models.ForeignKey(Order,on_delete=True) #order_id
-
-# Create your models here.
