@@ -47,4 +47,3 @@ class BankCard(models.Model):
     phone = models.CharField(max_length=32)
 
     seller = models.ForeignKey(Seller, on_delete=True)
-# Create your models here.
